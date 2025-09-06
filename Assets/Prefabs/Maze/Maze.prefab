@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &501290040372625397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4655905902092057433}
+  - component: {fileID: 3309893404832256113}
+  - component: {fileID: 8672107963789119965}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655905902092057433
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501290040372625397}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3309893404832256113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501290040372625397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c301f4523f889a341803b307b7c12d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cellsBuilder: {fileID: 8672107963789119965}
+  _collisionTimeCheck: 0.1
+  _onMazeStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  _onMazeCompleted:
+    m_PersistentCalls:
+      m_Calls: []
+  _debugView: 0
+--- !u!114 &8672107963789119965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501290040372625397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c509ea15a18e3d439b3b71a8224629c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: 5741a3e142107144a81d66a4a651d9e7, type: 2}
+  _mazeWidth: 5
+  _mazeHeight: 5
+  _mazeStartPosition: {fileID: 3865864148294233800, guid: 1509bb95fd4c2bd459b419d6263e0943, type: 3}
+  _cellPrefab: {fileID: 1881397179689380607, guid: 3cce79dd9cf11c94d955828565ab438e, type: 3}
+  _distanceBetweenCells: 6
+  _debugView: 1
