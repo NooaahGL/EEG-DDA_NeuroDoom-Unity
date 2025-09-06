@@ -35,7 +35,7 @@ La comunicación en tiempo real con el módulo [neurodoom-python](https://github
 ---
 ## ✨ Clonar el repositorio
 git clone https://github.com/nooaahGL/eeg-dda_neurodoom-unity.git
-cd neurodoom-python
+cd eeg-dda_neurodoom-unity
 
 ---
 
